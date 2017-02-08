@@ -18,6 +18,11 @@ module.exports = {
 				  {
 				    return "Fizz";
 				  }
+				  //Check if the number is zero
+				  else if(num === 0)
+				  {
+				  	return "Undefined";
+				  }
 				  else
 				  {
 				    return "FizzBuzz";
